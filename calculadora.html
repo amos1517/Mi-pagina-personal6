@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Gervacio Aguilar Amos Ernesto</title>
+        <link rel="stylesheet" href="estilos.css" />
+        <link type="text/css" href="estilos.css.css" rel="stylesheet">
+        <script type="text/javascript">
+        function info (elEvento) {
+             evento = elEvento || window.event;
+             k=evento.keyCode; //número de código de la tecla.
+    alert(k)
+    }
+    window.onload = function() {
+        document.onkeydown = info;
+        }
+        </script>
+        </head>
+        <body>
+            <div id="container">
+
+        <header>
+        <h1>COMIDA</h1>
+        </header>
+                
+        <nav>
+        <ul>
+        <li>
+        <a href="INDEX.html">
+        HOME
+        </a>
+                
+        </li>
+                
+        <li>
+        <a href="escuela.html">
+        Datos escolares
+        </a>
+                
+        </li>
+                
+        <li>
+        <a href="hobbie.html">
+        Hobbies
+        </a>
+                
+        <li>
+        <a href="heroe.html">
+        Heroe
+        </a>
+                    
+        </li>
+
+        <li>
+        <a href="comida.html">
+        Comida
+        </a>
+                    
+                
+        <li>
+        <a href="musica.html">
+           Musica
+        </a>
+
+        <li>
+            <h4> 
+            Calculadora
+            </h4>   
+            </li>
+                    
+        </li>
+        </ul>
+        </nav>
+                
+        <div class="clearfix"></div>  
+                <section id="content">
+             <article class="article">
+                <h2>CALCULADORA</h2>       
+        </article>
+
+            <div class="calculadora">
+                <form action="#" name="calculadora" id="calculadora">
+                <p id="textoPantalla">0</p>
+            <p> 
+            <input type="button" class="largo" value="Retr" onclick="retro()"   /> 
+            <input type="button" class="largo" value="CE" onclick="borradoParcial()"  /> 
+            <input type="button" class="largo" value="C" onclick="borradoTotal()"  /> 
+            </p> 
+            <p> 
+            <input type="button" value="7" onclick="numero('7')" /> 
+            <input type="button" value="8" onclick="numero('8')" /> 
+            <input type="button" value="9" onclick="numero('9')" /> 
+            <input type="button" value="/" onclick="operar('/')"  /> 
+            <input type="button" value="Raiz" onclick="raizc()" /> 
+            </p> 
+            <p> 
+            <input type="button" value="4" onclick="numero('4')" /> 
+            <input type="button" value="5" onclick="numero('5')" /> 
+            <input type="button" value="6" onclick="numero('6')" /> 
+            <input type="button" value="*" onclick="operar('*')" /> 
+            <input type="button" value="%" onclick="porcent()" /> 
+            </p> 
+            <p> 
+            <input type="button" value="1" onclick="numero('1')" /> 
+            <input type="button" value="2" onclick="numero('2')" /> 
+            <input type="button" value="3" onclick="numero('3')" /> 
+            <input type="button" value="-" onclick="operar('-')" /> 
+            <input type="button" value="1/x" onclick="inve()" /> 
+            </p> 
+            <p> 
+            <input type="button" value="0" onclick="numero('0')" /> 
+            <input type="button" value="+/-" onclick="opuest()" /> 
+            <input type="button" value="." onclick="numero('.')" /> 
+            <input type="button" value="+" onclick="operar('+')" /> 
+            <input type="button" value="=" onclick="igualar()" /> 
+            </p>
+        </section>
+    <div class="clearfix"></div>
+            
+    <footer>
+    Mi pagina personal
+    </footer>
+    </div>
+
+
+</form> 
+</div> 
+
+<script src="funcion.js.js"></script>  
+
+</body>
+</html>
